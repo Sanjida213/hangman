@@ -40,18 +40,17 @@ public class DisplayGuesses {
         String input = userInputs.getInput();
         char guessedLetter = input.toLowerCase().charAt(0);
 
-//        StringBuilder sb = new StringBuilder(word);
-
         // now have to get the correct letter to be revealed
         // loop over and guess until all letters are correct of if lives are over
         if (word.indexOf(guessedLetter) != -1) {
             for (int i = 0; i < hiddenWord.length(); i++) {
-                char ch = hiddenWord.charAt(i);
-                if (ch == guessedLetter) {
-                    ch.replace()
-                }
+                char hiddenLetter = hiddenWord.charAt(i);
+                if (hiddenLetter == guessedLetter) {
+                    String displayUpdatedGuess = hiddenWord.replaceAll(hiddenLetter,  guessedLetter);
+                }  // i cant use replaceall method to replace the
+
             }
-            System.out.println("Well done! The letter '" + input + "' is in the word.");
+            System.out.println("Well done! The letter " + input + " is in the word.");
         } else {
             System.out.println("Oh-uh! This is incorrect, you have " + --lives + " left");
         }
