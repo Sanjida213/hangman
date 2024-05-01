@@ -16,7 +16,7 @@ public class Main {
 
             System.out.println("Press enter to play another round or type 'exit' to quit");
             String usersInput = scanner.nextLine();
-            if (usersInput.equals("exit")) {
+            if (usersInput.equalsIgnoreCase("exit")) {
                 System.out.println("Thanks for playing! Exiting the game.");
                 break;
             }
