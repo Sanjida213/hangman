@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b72729a-2074-4099-ba70-5891b70791f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HangmanAnimation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DisplayGuesses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DisplayGuesses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RandomWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RandomWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RunningGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RunningGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserInputs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sanji/IdeaProjects/zoology2-code-along&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sanji/IdeaProjects/enums-abstract-classes-interfaces&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Sanji/IdeaProjects/hangman/src/main/java/org/example/Main.java&quot;
   }
 }</component>

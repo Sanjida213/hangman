@@ -3,7 +3,8 @@ package org.example;
 import java.util.Arrays;
 
 public class RandomWords {
-    private String[] wordBank = new String[]{"hospital", "laptop", "random", "ideology", "intellectual", "palace", "cultivating", "geography"};
+    private String[] wordBank = new String[]{"hospital", "laptop", "random", "ideology",
+            "intellectual", "palace", "cultivating", "geography", "intrigued", "height", "game", "baking"};
     private String randomWord;
 
     public void setRandomWord(String randomWord) {

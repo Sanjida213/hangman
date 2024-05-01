@@ -16,14 +16,6 @@ public class DisplayGuesses {
         this.hiddenWord = hiddenWord;
     }
 
-    public int getLives() {
-        return lives;
-    }
-
-    public void setLives(int lives) {
-        this.lives = lives;
-    }
-
     public DisplayGuesses(String word) {
         this.word = word;
     }
@@ -61,7 +53,7 @@ public class DisplayGuesses {
         }
 
         if (!hiddenWord.contains("_")) {
-            System.out.println("Congratulations! You've guessed the word correctly: " + word);
+            System.out.println("You win! You've guessed the word correctly: " + word);
         } else {
             System.out.println("Game over! The correct word was: " + word);
         }
